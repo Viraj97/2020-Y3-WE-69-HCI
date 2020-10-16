@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Riyasewana | Sell Vehicle</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body style="background-image: url(./assets/img/intro-bg.jpg); background-size: contain;">
+  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent">
+    <div class="container d-flex justify-content-end">
+      <div class="social-links">
+        <a href="login.html">Login</a>
+      </div>
+    </div>
+  </div>
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="index.html">Riyasewana</a></h1>
+      <nav class="main-nav d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+          <li><a href="contribute.html">Contribute</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="d-lg-none">
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter" style="margin-top: 100px; margin-left: 10%;">
+      Menu
+    </button>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Menu</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div align="center">
+                <img src="./assets/img/image-icon.jpg" height="300px" width="300px"><br><br>
+                <label>Welcome</label><br>
+              <a href="#">Edit my ads</a><br>
+              <a href="#">My Favorites</a><br>
+              <a href="#">edit profile</a><br>
+              <a href="#">Change Password</a><br>
+              <a href="#">Logout</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+          </div>
+<div class="d-none d-lg-block" style="margin-top: 100px;">
+</div>
+<main data-aos="zoom-out" data-aos-delay="200">
+  <div class="row">
+<div class="col" data-aos="fade-up">
+  <form class="text-left border border-light p-5" action="./review.html">
+  <p class="h4 mb-4">Sell Your Vehicle</p>
+  <label>Contact info</label>
+  <div class="input-group mb-4">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Name</span>
+    </div>
+    <input type="text" id="defaultContactFormName" class="form-control" placeholder="Viraj Rathnayake" disabled>
+  </div>
+  <div class="input-group mb-4">
+    <div class="input-group-prepend">
+      <span class="input-group-text">Phone</span>
+    </div>
+    <input type="number" maxlength=10 id="defaultContactFormEmail" class="form-control" placeholder="0719162597" disabled>
+  </div>
+  <div class="input-group mb-4">
+    <div class="input-group-prepend">
+      <span class="input-group-text">City</span>
+    </div>
+    <input type="text" id="defaultContactFormEmail" class="form-control" placeholder="Homagama" disabled>
+  </div>
+  <label>Vehicle info</label>
+  <select class="browser-default custom-select mb-4">
+      <option value="0" disabled selected>Make</option>
+      <option value="1">Toyota</option>
+      <option value="2">Honda</option>
+      <option value="3">KIA</option>
+      <option value="4">Mitsubishi</option>
+      <option value="5">Isusu</option>
+      <option value="6">Susuki</option>
+      <option value="6">Tata</option>
+  </select>
+  <select class="browser-default custom-select mb-4">
+    <option value="0" disabled selected>Model</option>
+    <option value="1">Corolla</option>
+    <option value="2">Axio</option>
+    <option value="3">Yaris</option>
+    <option value="4">Camry</option>
+</select>
+<div class="btn-group btn-group-toggle" data-toggle="buttons" style="margin-bottom: 10px;">
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> New
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Used
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option3" autocomplete="off"> Recondition
+  </label>
+</div>
+<select class="browser-default custom-select mb-4">
+  <option value="0" disabled selected>Manufacture Year</option>
+  <option value="1">2000</option>
+  <option value="2">2001</option>
+  <option value="3">2002</option>
+  <option value="4">2003</option>
+  <option value="4">2004</option>
+  <option value="4">2005</option>
+  <option value="4">2006</option>
+  <option value="4">2007</option>
+  <option value="4">2008</option>
+</select>
+<input type="number" maxlength=10 class="form-control mb-4" placeholder="Engine capacity" required>
+<input type="number" maxlength=10 id="defaultContactFormEmail" class="form-control mb-4" placeholder="Milage" required>
+<div class="input-group mb-3">
+  <div class="input-group-prepend">
+    <span class="input-group-text">Rs</span>
+  </div>
+  <input type="text" class="form-control" aria-label="Price" required>
+</div>
+  <div class="form-group">
+      <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Additional Info"></textarea>
+  </div>
+  <div class="form-group">
+    <label>Select Images</label>
+    <input id='files' type='file' name="uploadedfile" multiple/>
+    <br><br><output id='result'>
+   </div>
+  <button class="btn btn-info btn-block" type="submit">Post Ad</button>
+</form>
+<script>
+  window.onload = function() {
+//Check File API support
+if (window.File && window.FileList && window.FileReader) {
+  var filesInput = document.getElementById("files");
+  filesInput.addEventListener("change", function(event) {
+    var files = event.target.files; 
+    //FileList object
+    var output = document.getElementById("result");
+    for (var i = 0; i < files.length; i++){
+      var file = files[i];
+      //Only pics
+      if (!file.type.match('image'))
+        continue;
+      var picReader = new FileReader();
+      picReader.addEventListener("load", function(event) {
+        var picFile = event.target;
+        var div = document.createElement("div");
+        div.innerHTML = "<img class='thumbnail' src='" + picFile.result + "'" +
+          "title='" + picFile.name + "'/>";
+        output.insertBefore(div, null);
+      });
+      //Read the image
+      picReader.readAsDataURL(file);
+    }
+  });
+} else {
+  console.log("Your browser does not support File API");
+}
+}
+</script>
+</div>
+<div class="col-5 d-none d-lg-block" data-aos="zoom-out" data-aos-delay="200">
+  <div align="center" style="margin-top: 100px;">
+    <img src="./assets/img/image-icon.jpg" height="300px" width="300px"><br><br>
+    <label>Welcome</label><br>
+  <a href="#">Edit my ads</a><br>
+  <a href="#">My Favorites</a><br>
+  <a href="#">edit profile</a><br>
+  <a href="#">Change Password</a><br>
+  <a href="#">Logout</a>
+  </div>
+</div>
+</div>
+</main>
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+    <div class="container" align="center">
+      <div class="col-lg-6">
+        <div class="col-sm-6">
+          <div class="social-links">
+            <a href="https://twitter.com/riyasewana" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/riyasewana" class="facebook"><i class="fa fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-6">
+      <div class="copyright">
+        &copy; Copyright <strong>Riyasewana Lanka (Pvt) Ltd.</strong>
+      </div>
+      <div class="credits">
+        <a href="https://bootstrapmade.com/">Terms & Conditions</a>|
+        <a href="https://bootstrapmade.com/">Privacy Policy</a>
+      </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>

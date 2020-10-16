@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Riyasewana | Register</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main5.css" type="text/css" media="all"/>
+</head>
+
+<style>
+.container{
+min-height: auto;
+display: flex;
+}
+
+.left{
+  width: 50%;
+}
+.right{
+  width: 50%;
+}
+
+.img1 {
+  display: block;
+  margin-left:auto ;
+  margin-right: 0 ;
+  /* margin-top: 50px; */
+}
+
+.img {
+  display: block;
+  margin-left:700px ;
+  margin-right: 100px ;
+  margin-top: 50px;
+}
+
+  h1 {
+      padding: 10px 0;
+      text-align: left;
+      font-size: 15px;
+      color: #b80707;
+  }
+  .fixed {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 200px;
+
+  /* border: 3px solid #73AD21; */
+}
+
+   .hero-image {
+background-image: url("assets/img/car3.jpg");
+background-color: #cccccc;
+height: 500px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+  .hero-image1 {
+/* background-image: url("assets/img/car3.jpg"); */
+background-color: #070101;
+height: 24px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+
+  .intext {
+      width: 250px;
+      height: 30px;
+      border: 2px solid #a6a6a6;
+      border-radius: 3px;
+      font-size: 14px;
+      padding: 0px 5px;
+  }
+
+  .intext:focus {
+      border: 2px solid #3db2d0;
+  }
+
+  .tbltxt {
+      font-weight: bold;
+      font-size: 13px;
+  }
+
+  table td {
+      padding-bottom: 16px;
+  }
+
+  .btnintxt {
+      width: 264px;
+      height: 34px;
+      background-color: #180c01;
+      border-radius: 3px;
+      color: #fff;
+      font-weight: bold;
+      border: 2px solid #070100;
+      -webkit-appearance: button;
+  }
+  .btnintxt1 {
+      width: 264px;
+      height: 34px;
+      background-color: #180c01;
+      border-radius: 3px;
+      color: #fff;
+      font-weight: bold;
+      border: 2px solid #f03413;
+      -webkit-appearance: button;
+  }
+
+
+  .btnintxt:hover {
+      opacity: 0.85;
+      cursor: pointer;
+  }
+</style>
+
+<script>
+
+function validateForm() {
+  var x = document.forms["myForm"]["uname"].value;
+  if (x == "") {
+    alert("User Name must be filled out");
+    return false;
+  }
+  var y = document.forms["myForm"]["pass"].value;
+  if (y == "") {
+    alert("Password must be filled out");
+    return false;
+  }
+  var z = document.forms["myForm"]["rpass"].value;
+  if (z == "") {
+    alert("Re-enter the password");
+    return false;
+  }
+
+  var y = document.forms["myForm"]["pass"].value;
+   if (z == y) {
+
+     return true;
+   }
+  else{
+   alert("Password did not match");
+     return false;
+    }
+
+  var a = document.forms["myForm"]["fname"].value;
+  if (a == "") {
+    alert("Name must be filled out");
+    return false;
+  }
+  var b = document.forms["myForm"]["email"].value;
+  if (b == "") {
+    alert("Email must be filled out");
+    return false;
+  }
+
+var c = document.forms["myForm"]["phn"].value;
+  if (c == ""|| c.length<11) {
+    alert("Phone Number must be filled out");
+    return false;
+  }
+  var d = document.forms["myForm"]["city"].value;
+  if (d == "") {
+    alert("City must be filled out");
+    return false;
+  }
+  //  alert("You have registerd successfully");
+   
+// var a1=document.getElementById("uname").value;
+// var a2=document.getElementById("pass").value;
+// var a3=document.getElementById("rpass").value;
+// var a4=document.getElementById("fname").value;
+// var a5=document.getElementById("email").value;
+// var a6=document.getElementById("phn").value;
+// var a7=document.getElementById("city").value;
+  
+// // if(x != "" || y!="" || z!="" || a!="" || b!="" || c!="" || d!="" || z==y){
+// //    alert("You have registerd successfully");
+
+// //    }
+// if(a1 !== '' && a2 !=='' && a3 !== '' && a4 !==''&& a5 !== '' && a6 !==''&& a7!==''){
+//   alert("success");
+// }else{
+//   alert("hi");
+// }
+
+
+}
+
+
+
+</script>
+ <script>
+  function myFunction() {
+    alert("You have registered successfully!");
+  }
+  </script> 
+
+<body>
+  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent">
+  </div>
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="index.html">Riyasewana</a></h1>
+      <nav class="main-nav d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+          <li><a href="contribute.html">Contribute</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center" data-aos="fade-up">
+        <div class="col-md-6 intro-info order-md-first order-last" data-aos="zoom-in" data-aos-delay="100">
+          <h2>Riyasewana<br><span>Register</span></h2>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- <div class="hero-image"></div> -->
+   <form name="myForm" id="myFormq"  method="post">
+    <table style="border:none;">
+        <tr>
+          <!-- <img src="assets/img/lap.jfif" alt="" style="width:20% " class="img"> -->
+
+          <td align="right" class="tbltxt">
+                User Name<span class="red"></span>
+                <img src="assets/img/person.png" class="hero-image1">
+            </td>
+            <td>
+                <input type="text" class="intext" name="uname" id="uname" required placeholder="Enter User Name" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" class="tbltxt">
+                Password<span class="red"></span>
+                <img src="assets/img/pwd.png" class="hero-image1">
+            </td>
+            <td>
+                <input type="password" class="intext" name="pass" id="pass" required placeholder="Enter Password" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" class="tbltxt">
+                Re-enter password<span class="red"></span>
+                <img src="assets/img/pwd.png" class="hero-image1">
+            </td>
+            <td>
+                <input type="password" class="intext" name="rpass" required placeholder=" Re-Enter password " id="rpass" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" class="tbltxt">
+                Name<span class="red"></span>
+                <img src="assets/img/person.png" class="hero-image1">
+            </td>
+            <td>
+                <input type="text" class="intext" name="fname" id="fname" required placeholder="Enter Name" value=""/>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" class="tbltxt">
+                Email<span class="red"></span>
+                <img src="assets/img/mail.png" class="hero-image1">
+            </td>
+            <td>
+                <input type="text" class="intext" name="email" id="email" required placeholder="Enter an email" value=""/>
+                <span style="font-size:11px;">&nbsp;&nbsp;(Should be a Valid Email Address)</span>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" class="tbltxt">
+                Phone number<span class="red"></span>
+                <img src="assets/img/phone1.png" class="hero-image1">
+            </td>
+            <td>
+                <input maxlength="14" size="14" type="text" class="intext" name="phn" id="phn" required placeholder="Enter Phone Number" value=""/>
+                <span style="font-size:11px;">&nbsp;&nbsp;(10 Numbers)</span>
+            </td>
+        </tr>
+        <tr>
+            <td align="right" class="tbltxt">
+                City<span class="red"></span>
+                <img src="assets/img/city.png" class="hero-image1">
+            </td>
+            <td>
+                <select style="width:264px;height:34px;" name="city" id="city" required class="intext">
+                    <option value="0">Select City</option>
+                    <option value="Ambalangoda">Ambalangoda</option>
+                    <option value="Ampara">Ampara</option>
+                    <option value="Anuradapura">Anuradapura</option>
+                    <option value="Avissawella">Avissawella</option>
+                    <option value="Bandaragama">Bandaragama</option>
+                    <option value="Badulla">Badulla</option>
+                    <option value="Balangoda">Balangoda</option>
+                    <option value="Bandarawela">Bandarawela</option>
+                    <option value="Battaramulla">Battaramulla</option>
+                    <option value="Batticaloa">Batticaloa</option>
+                    <option value="Beruwala">Beruwala</option>
+                    <option value="Boralesgamuwa">Boralesgamuwa</option>
+                    <option value="Chavakacheri">Chavakacheri</option>
+                    <option value="Chilaw">Chilaw</option>
+                    <option value="Colombo">Colombo</option>
+                    <option value="Daluguma">Daluguma</option>
+                    <option value="Dambulla">Dambulla</option>
+                    <option value="Dehiwala-Mount-Lavinia">Dehiwala-Mount-Lavinia</option>
+                    <option value="Divulapitiya">Divulapitiya</option>
+                    <option value="Dompe">Dompe</option>
+                    <option value="Eheliyagoda">Eheliyagoda</option>
+                    <option value="Embilipitiya">Embilipitiya</option>
+                    <option value="Eravur">Eravur</option>
+                    <option value="Galle">Galle</option>
+                    <option value="Gampaha">Gampaha</option>
+                    <option value="Gampola">Gampola</option>
+                    <option value="Hambantota">Hambantota</option>
+                    <option value="Haputale">Haputale</option>
+                    <option value="Harispattuwa">Harispattuwa</option>
+                    <option value="Hatton">Hatton</option>
+                    <option value="Hendala">Hendala</option>
+                    <option value="Homagama">Homagama</option>
+                    <option value="Horana">Horana</option>
+                    <option value="Ja-Ela">Ja-Ela</option>
+                    <option value="Jaffna">Jaffna</option>
+                    <option value="Kadawatha">Kadawatha</option>
+                    <option value="Kadugannawa">Kadugannawa</option>
+                    <option value="Kaduwela">Kaduwela</option>
+                    <option value="Kalawana">Kalawana</option>
+                    <option value="Kalmunai">Kalmunai</option>
+                    <option value="Kalutara">Kalutara</option>
+                    <option value="Kandana">Kandana</option>
+                    <option value="Kandy">Kandy</option>
+                    <option value="Kattankudy">Kattankudy</option>
+                    <option value="Katunayake">Katunayake</option>
+                    <option value="Kegalle">Kegalle</option>
+                    <option value="Kelaniya">Kelaniya</option>
+                    <option value="Kesbewa">Kesbewa</option>
+                    <option value="Keselwatta">Keselwatta</option>
+                    <option value="Kilinochchi">Kilinochchi</option>
+                    <option value="Kiribathgoda">Kiribathgoda</option>
+                    <option value="Kolonnawa">Kolonnawa</option>
+                    <option value="Kotikawatta">Kotikawatta</option>
+                    <option value="Kotte">Kotte</option>
+                    <option value="Kottawa">Kottawa</option>
+                    <option value="Kuliyapitiya">Kuliyapitiya</option>
+                    <option value="Kurunegala">Kurunegala</option>
+                    <option value="Maharagama">Maharagama</option>
+                    <option value="Mahiyanganaya">Mahiyanganaya</option>
+                    <option value="Malabe">Malabe</option>
+                    <option value="Mannar">Mannar</option>
+                    <option value="Matale">Matale</option>
+                    <option value="Matara">Matara</option>
+                    <option value="Matugama">Matugama</option>
+                    <option value="Mawanella">Mawanella</option>
+                    <option value="Minuwangoda">Minuwangoda</option>
+                    <option value="Mirigama">Mirigama</option>
+                    <option value="Moneragala">Moneragala</option>
+                    <option value="Moratuwa">Moratuwa</option>
+                    <option value="Mullaitivu">Mullaitivu</option>
+                    <option value="Mulleriyawa">Mulleriyawa</option>
+                    <option value="Nawalapitiya">Nawalapitiya</option>
+                    <option value="Negombo">Negombo</option>
+                    <option value="Nittambuwa">Nittambuwa</option>
+                    <option value="Nuwara-Eliya">Nuwara-Eliya</option>
+                    <option value="Nugegoda">Nugegoda</option>
+                    <option value="Padukka">Padukka</option>
+                    <option value="Panadura">Panadura</option>
+                    <option value="Pannipitiya">Pannipitiya</option>
+                    <option value="Peliyagoda">Peliyagoda</option>
+                    <option value="Piliyandala">Piliyandala</option>
+                    <option value="Polgahawela">Polgahawela</option>
+                    <option value="Polonnaruwa">Polonnaruwa</option>
+                    <option value="Puttalam">Puttalam</option>
+                    <option value="Ragama">Ragama</option>
+                    <option value="Ratnapura">Ratnapura</option>
+                    <option value="Seethawakapura">Seethawakapura</option>
+                    <option value="Sigiriya">Sigiriya</option>
+                    <option value="Talawakele">Talawakele</option>
+                    <option value="Tangalle">Tangalle</option>
+                    <option value="Trincomalee">Trincomalee</option>
+                    <option value="Valvettithurai">Valvettithurai</option>
+                    <option value="Vavuniya">Vavuniya</option>
+                    <option value="Wattala">Wattala</option>
+                    <option value="Wattegama">Wattegama</option>
+                    <option value="Warakapola">Warakapola</option>
+                    <option value="Weligama">Weligama</option>
+                    <option value="Welimada">Welimada</option>
+                    <option value="Welisara">Welisara</option>
+                </select>
+             </td>
+            </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td>
+                <input class="btnintxt" type="submit" name="sub" id="sub"   onclick="validateForm();" value="Register Free"/>
+            </td>
+        <td>
+
+            <div id="already" style="margin-bottom:55px;padding-right:34px;">
+                     Already a member of Riyasewana.com?
+                <div style="padding-block-end:8px;">
+                    <!-- <input class="btnintxt1" type="button" value="Login here"/>                            -->
+                     <a href="login.html">Log in here</a>
+                </div>
+            </div>
+        </td>
+        </tr>
+    </table>
+    <img src="assets/img/lap2.jfif" alt="" style="width:20% " class="img1">
+    <input type="hidden" name="token" value="a69be4f91de8baf52f3dfb25963a7737"/>
+  </div>
+
+
+
+  </form>
+
+
+</tr>
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+    <div class="container" align="center">
+      <div class="col-lg-6">
+        <div class="col-sm-6">
+          <div class="social-links">
+            <a href="https://twitter.com/riyasewana" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/riyasewana" class="facebook"><i class="fa fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-6">
+      <div class="copyright">
+        &copy; Copyright <strong>Riyasewana Lanka (Pvt) Ltd.</strong>
+      </div>
+      <div class="credits">
+        <a href="https://bootstrapmade.com/">Terms & Conditions</a>|
+        <a href="https://bootstrapmade.com/">Privacy Policy</a>
+      </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+
+</html>

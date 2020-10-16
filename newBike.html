@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  
+
+  <title>Riyasewana</title>
+  <meta content="" name="descriptison">
+  <meta content="" name="keywords">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/main5.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top topbar-transparent">
+    <div class="container d-flex justify-content-end">
+      <div class="social-links">
+        <a href="login.html">Login</a>
+      </div>
+    </div>
+  </div>
+  <header id="header" class="fixed-top header-transparent">
+    <div class="container d-flex align-items-center">
+
+      <h1 class="logo mr-auto"><a href="index.html">Riyasewana</a></h1>
+      <nav class="main-nav d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+          <li><a href="contribute.html">Contribute</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <style>
+        body {
+            background-image: url("assets/img/intro-bg.jpg");
+            /* Full height */
+            
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            }
+
+            body {
+                font-family: ‘Segoe UI’;
+                font-size: 12pt;
+              }
+
+            header h1 {
+              font-size: 12pt;
+              color: #fff;
+              background-color: #1BA1E2;
+              padding: 20px;
+            }
+
+            h2 {
+                font-family: "Times New Roman", Times, serif;
+                font-size: 20px;
+                font-weight: 700;
+                padding: 5px 0;
+                color:#555557
+            }
+            .mb-4{
+                width: 450px;
+                height: 35px;
+                border-style:groove;
+            }
+            .rounded-0{
+                border-style:groove;
+            }
+
+            article {
+              width: 80%;
+              margin: auto;
+              margin-top: 10px;
+            }
+
+            .thumbnail {
+              height: 100px;
+              margin: 10px;
+            }
+
+            .btnintxt {
+              width: 100px;
+              height: 34px;
+              background-color: #52bad5;
+              border-radius: 3px;
+              color: #fff;
+              font-weight: bold;
+              border: 2px solid #52bad5;
+            }
+
+            .btnintxt:hover {
+                opacity: 0.85;
+                cursor: pointer;
+            }
+
+            .rupeeDiv{
+              width: 450px;
+            }
+
+            .rupeeDiv2{
+              width: 40px;
+            }
+
+      </style>
+  </header>
+  <section id="hero" class="clearfix">
+    <div class="container d-flex h-100">
+      <div class="row justify-content-center align-self-center" data-aos="fade-up">
+        <div class="col-md-6 intro-info order-md-first order-last" data-aos="zoom-in" data-aos-delay="100">
+          <h2>Riyasewana<br>sell your <span>Bike</span></h2>
+        </div>
+
+        <div class="col-md-6 intro order-md-last order-first" data-aos="zoom-out" data-aos-delay="200">
+          <img src="assets/img/bike.svg" alt="" class="img-fluid">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!--SELL BIKE FORM-->
+
+  <div id="mbody">
+    <div id="sidebar">
+      <div id="accside" style="border-left:1px solid #969696;margin-top:30px;">
+          <div style="padding-bottom:10px;">
+              <a href="https://geyakidamak.com/register.php">
+                  <img style="border:2px rgb(82, 80, 80) solid;" src="assets/img/pro.jpg" alt="Sell Rent Property" width="200" height="250"/>
+              </a>
+          </div>
+          <div style="padding-bottom:10px;font-size:14px;">Welcome Viraj</div>
+          <div style="border-bottom:1px solid #f2f2f2;border-top:1px solid #f2f2f2;padding:15px 10px;">
+              <a href="account.php">Edit My Ads</a>
+          </div>
+          <div style="border-bottom:1px solid #f2f2f2;padding:15px 10px;">
+              <a href="favorite.php">My Favorites</a>
+          </div>
+          <div style="border-bottom:1px solid #f2f2f2;padding:15px 10px;">
+              <a href="editprofile.php">Edit Profile</a>
+          </div>
+          <div style="border-bottom:1px solid #f2f2f2;padding:15px 10px;">
+              <a href="changepass.php">Change Password</a>
+          </div>
+          <div style="border-bottom:1px solid #f2f2f2;padding:15px 10px;">
+              <a href="logout.php">Logout</a>
+          </div>
+      </div>
+  </div>
+  </div>
+
+
+
+<div style="margin-left: 200px;">
+  <form method="post" name="form1" id="form1" enctype="multipart/form-data" onsubmit="return validateForm()" action="./bikeReview.html">
+    <table style="border:none;">
+        <tr>
+            <td colspan="2">
+               <br><br>
+                <label><h2>Contact info</h2></label>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="text" id="defaultContactFormName" name="fname" class="form-control mb-4" placeholder="Name">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" maxlength=10 id="defaultContactFormEmail" name="number" class="form-control mb-4" placeholder="Phone Number">
+                <!-- <span style="font-size:11px;">&nbsp;(10 numbers) Only Mobile numbers</span> -->
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="defaultContactFormEmail" name="city" class="form-control mb-4" placeholder="City">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <label><h2>Vehicle info</h2></label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select class="browser-default custom-select mb-4">
+                    <option value="0" disabled selected name="make">Make</option>
+                    <option value="1">BMW</option>
+                    <option value="2">Honda</option>
+                    <option value="3">Suzuki</option>
+                    <option value="4">TVS</option>
+                    <option value="5">Yamaha</option>
+                    <option value="6">Bajaj</option>
+                    <option value="6">Kawasaki</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="defaultContactFormName" name="model" class="form-control mb-4" placeholder="Model">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+  <label class="btn btn-secondary active">
+    <input type="radio" name="options" id="option1" autocomplete="off" checked> New
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option2" autocomplete="off"> Used
+  </label>
+  <label class="btn btn-secondary">
+    <input type="radio" name="options" id="option3" autocomplete="off"> Recondition
+  </label>
+</div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select class="browser-default custom-select mb-4">
+                    <option value="0" disabled selected name="manu">Manufacture Year</option>
+                                      <option value="2020">2020</option>
+                                      <option value="2019">2019</option>
+                                      <option value="2018">2018</option>
+                                      <option value="2017">2017</option>
+                                      <option value="2016">2016</option>
+                                      <option value="2015">2015</option>
+                                      <option value="2014">2014</option>
+                                      <option value="2013">2013</option>
+                                      <option value="2012">2012</option>
+                                      <option value="2011">2011</option>
+                                      <option value="2010">2010</option>
+                                      <option value="2009">2009</option>
+                                      <option value="2008">2008</option>
+                                      <option value="2007">2007</option>
+                                      <option value="2006">2006</option>
+                                      <option value="2005">2005</option>
+                                      <option value="2004">2004</option>
+                                      <option value="2003">2003</option>
+                                      <option value="2002">2002</option>
+                                      <option value="2001">2001</option>
+                                      <option value="2000">2000</option>
+                  </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <select class="browser-default custom-select mb-4">
+                    <option value="0" disabled selected name="ecap">Engine Capacity</option>
+                    <option value="1">125cc</option>
+                    <option value="2">150cc</option>
+                    <option value="3">180cc</option>
+                    <option value="4">200cc</option>
+                    <option value="5">250cc</option>
+                    <option value="6">400cc</option>
+                    <option value="6">600cc</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="text" id="defaultContactFormName" name="milage" class="form-control mb-4" placeholder="Milage">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="rupeeDiv">
+                    <input type="text" name="price" class="form-control" aria-label="Price" placeholder="Rs.">
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <textarea class="form-control rounded-0" name="info" id="exampleFormControlTextarea2" rows="3" placeholder="Additional Info" style="width:450px"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+              <br><label style="margin-left: 17%;">Select Images</label>
+                <input id='files' type='file' name="uploadedfile" multiple/>
+            </td>
+        </tr>
+        <tr>
+          <td>
+            <br><output ><div id='result' style="width:450px;"></div></output>
+          </td>
+      </tr>
+        <tr>
+          
+          <td style="width: 450px;">
+              <button class="btn btn-info btn-block" type="submit" style="width: 50%; margin-left: 22%;">Post Ad</button>
+              <input type="hidden" name="exif" id="exif" value=""/>
+              <img alt="" border="0" id="up_load" src="images/ajax-loader.gif" style="display:none;"/>
+          </td>
+      </tr>
+
+    </table>
+    <input type="hidden" name="up_hid" id="up_hid" value="ok"/>
+    <input type="hidden" name="token" value=""/>
+    <input type="hidden" name="1" id="1" value=""/>
+    <input type="hidden" name="2" id="2" value=""/>
+    <input type="hidden" name="3" id="3" value=""/>
+    <input type="hidden" name="4" id="4" value=""/>
+    <input type="hidden" name="5" id="5" value=""/>
+    <input type="hidden" name="6" id="6" value=""/>
+    
+</form>
+
+<script>
+    window.onload = function() {
+  //Check File API support
+  var count = 1;
+  if (window.File && window.FileList && window.FileReader) 
+  {
+    var filesInput = document.getElementById("files");
+    
+    filesInput.addEventListener("change", function(event) 
+    {
+        if(count <= 5)
+        {
+          var files = event.target.files; 
+          //FileList object
+          var output = document.getElementById("result");
+
+          for (var i = 0; i < files.length; i++)
+          {
+            var file = files[i];
+            //Only pics
+            if (!file.type.match('image'))
+              continue;
+            
+            
+            var picReader = new FileReader();
+            picReader.addEventListener("load", function(event) 
+            {
+              var picFile = event.target;
+              var div = document.createElement("div");
+              div.innerHTML = "<img class='thumbnail' src='" + picFile.result + "'" +
+                "title='" + picFile.name + "'/>";
+              div.style= "display: inline-block;";
+              output.insertBefore(div, null);
+              count++;
+            });
+            //Read the image
+            picReader.readAsDataURL(file);
+          }
+        }
+        else
+        {
+          filesInput.disabled = true;
+        }
+        console.log(count);
+    });
+      
+  
+  } else {
+    console.log("Your browser does not support File API");
+  }
+}
+
+//validations
+function validateForm(){ 
+    var fname = document.forms["form1"]["fname"];               
+    var number = document.forms["form1"]["number"];    
+    var city = document.forms["form1"]["city"];  
+    var make =  document.forms["form1"]["make"];  
+    var model = document.forms["form1"]["model"];  
+    var manu = document.forms["form1"]["manu"];  
+    var ecap = document.forms["form1"]["ecap"];
+    var milage = document.forms["form1"]["milage"];  
+    var price = document.forms["form1"]["price"]; 
+    var info = document.forms["form1"]["info"]; 
+   
+    if (fname.value == "")                                  
+    { 
+        window.alert("Please enter your name."); 
+        fname.focus(); 
+        return false; 
+    } 
+   
+    if (number.value == "")                               
+    { 
+        window.alert("Please enter your Phone Number."); 
+        number.focus(); 
+        return false; 
+    } 
+       
+    if (city.value == "")                                   
+    { 
+        window.alert("Please enter a City."); 
+        city.focus(); 
+        return false; 
+    } 
+   
+    if (make.value == "")                           
+    { 
+        window.alert("Please enter Make."); 
+        make.focus(); 
+        return false; 
+    } 
+   
+    if (model.value == "")                        
+    { 
+        window.alert("Please enter model"); 
+        model.focus(); 
+        return false; 
+    }
+    if (manu.value == "")                        
+    { 
+        window.alert("Please enter manu"); 
+        manu.focus(); 
+        return false; 
+    }
+    if (ecap.value == "")                        
+    { 
+        window.alert("Please enter Engine Capacity"); 
+        ecap.focus(); 
+        return false; 
+    }
+    if (milage.value == "")                        
+    { 
+        window.alert("Please enter Milage"); 
+        milage.focus(); 
+        return false; 
+    }
+    if (price.value == "")                        
+    { 
+        window.alert("Please enter Price"); 
+        price.focus(); 
+        return false; 
+    }
+    if (info.value == "")                        
+    { 
+        window.alert("Please enter Aditional Information"); 
+        info.focus(); 
+        return false; 
+    }
+
+    return true; 
+}
+
+</script>
+
+</div>
+
+
+
+
+
+  <footer id="footer" class="section-bg">
+    <div class="footer-top">
+    <div class="container" align="center">
+      <div class="col-lg-6">
+        <div class="col-sm-6">
+          <div class="social-links">
+            <a href="https://twitter.com/riyasewana" class="twitter"><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/riyasewana" class="facebook"><i class="fa fa-facebook"></i></a>
+          </div>
+        </div>
+        <div class="col-sm-6">
+      <div class="copyright">
+        &copy; Copyright <strong>Riyasewana Lanka (Pvt) Ltd.</strong>
+      </div>
+      <div class="credits">
+        <a href="https://bootstrapmade.com/">Terms & Conditions</a>|
+        <a href="https://bootstrapmade.com/">Privacy Policy</a>
+      </div>
+      </div>
+      </div>
+    </div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
